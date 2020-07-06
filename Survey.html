@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf=8">
+    <Title>Survey forms</Title>
+</head>
+<body>
+    <h1>Survey form<img src="images/shoes.jpg" alt="shoe" width="70" height="70" ></h1>
+    <form action="/mailinglist.php" method="POST">
+    <form>
+    <fieldset>
+        <p>Let us know how we can improve our sevices at <em>Akila Shoes</em></p>
+    <p><label>*Name:<br><br><input type="text" name="fullname" placeholder="Enter your full name" ></label></p>
+    <p><label>*Email:<br><br><input type="text" name="Email" placeholder="Enter your email here"></label></p>
+    <p><label>*Age:<br><br><input type="number" name="Age" placeholder="Enter your age in years"></label></p>
+    <ul>
+    <li>Which option best describes your current role?</li>
+    <input type="radio" name="role" value="student" checked>student
+    <input type="radio" name="role" value="Self-employed">self-employed
+    <input type="radio" name="role" value="worker">worker
+    <input type="radio" name="role" value="Others">Others</p>
+    <p><li>*How likely is it that you will recommend <em>Akila Shoes</em> to your friends?</li>
+    <input type="radio" name="recommend" value="Definitely" checked>Definitely
+    <input type="radio" name="recommend" value="Not sure">Not sure
+    <input type="radio" name="recommend" value="Not at all">Not at all</p>
+    <p><li>*What you like most in our company</li></p>
+    <select name="Select an option">
+        <option>select an option</option>
+        <option>the food</option>
+    </select>
+
+    <p><li>*What kind of shoes do you like?</li>
+        <input type="checkbox" name="kind" value="Designers" checked>Desighners
+        <input type="checkbox" name="kind" value="sneakers">sneakers
+        <input type="checkbox" name="kind" value="sandals">sandals
+        <input type="checkbox" name="kind" value="slippers">slippers
+        <input type="checkbox" name="kind" value="male design">male design
+        <input type="checkbox" name="kind" value="female design">Female deign
+    </p>
+        </ul>
+    </ul>
+</fieldset>
+    </form>
+    <p><small>Copyrights 2020</small></p>
+<p><small>All rights reserved</small></p>
+</body>
+</html>
